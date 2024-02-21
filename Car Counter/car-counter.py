@@ -5,9 +5,9 @@ import math
 from sort import *
 
 # Import Videos
-cap = cv2.VideoCapture('../Videos/test-cars.mp4')
+cap = cv2.VideoCapture('C:/data/Documents/Car Counter YOLOv8/Videos/car-videos.mp4')
 
-model = YOLO("../Yolo-Weights/yolov8l.pt")
+model = YOLO('C:/data/Documents/Car Counter YOLOv8/Yolo-Weights/yolov8l.pt')
 
 className = ["person", "bicycle", "car", "motorbike", "aeroplane", "bus", "train", "truck",
              "boat", "traffic light", "fire hydrant", "stop sign", "parking meter", "bench",
@@ -23,7 +23,7 @@ className = ["person", "bicycle", "car", "motorbike", "aeroplane", "bus", "train
              "toothbrush"
              ]
 
-mask = cv2.imread('mask.png')
+mask = cv2.imread('C:/data/Documents/Car Counter YOLOv8/Car Counter/mask.png')
 
 # Tracker
 tracker = Sort(max_age=20, min_hits=3, iou_threshold=0.3)
