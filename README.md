@@ -4,13 +4,8 @@
 
 ## About this Project
 
-This is an Object Detection Project using YOLOv8 as the models. The main idea of this project is to count the cars that cross the red line.
+This is an Object Detection Project using YOLOv8 as the models. The main idea of this project is to count the cars that cross the line.
 so that we can know the number of cars easily.
-
-**notes:** `if you find that some cars from the model detects a car as 2, don't worry because this should be adaptable to the needs of your project, you can even use your own training model.`
-
-#### This is an Example of Running Test from this Project
-![img.png](img.png)
 
 ## Setup
 
