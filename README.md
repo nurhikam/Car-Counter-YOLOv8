@@ -35,7 +35,7 @@ If you want to boost the perform when running this project using your GPU, you c
 - Congrats, now you can run this project using your GPU with less lag.
 
 ## Demo Project
-[ Link ](https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7165950100031188992?compact=1 "Now in Android: 55")
+[![Demo Project](https://github.com/nurhikam/Car-Counter-YOLOv8/assets/92198564/6b42adb5-390b-42d2-bc09-0fdedc020bb5)](https://www.linkedin.com/feed/update/urn:li:activity:7165950477224820736/)
 
 ## References
 - https://github.com/abewley/sort/blob/master/sort.py
